@@ -20,3 +20,27 @@
 .App-link {
   color: #09d3ac;
 }
+
+.contact-container, .title-container{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+.contact-container img{
+  width:30px;
+  margin-left:30px;
+}
+.contact-container button{
+  margin-right:30px;
+}
+.title-container p{
+  font-size:18px;
+  font-weight: bold;
+}
+.title-container p:nth-child(1){
+  margin-left:30px;
+}
+.title-container p:nth-child(4){
+  margin-right:30px;
+}
